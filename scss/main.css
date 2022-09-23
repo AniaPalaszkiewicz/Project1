@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(237, 233, 226);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  background-color: rgb(103, 136, 208);
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.button:hover {
+  box-shadow: 2px 4px gray;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.element {
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 40px;
+}
+.element:hover {
+  color: rgb(103, 136, 208);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: rgb(179, 176, 176);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-contact-element:hover {
+  color: rgb(103, 136, 208);
+}
+.footer-form-label:hover {
+  color: rgb(103, 136, 208);
+}
+.footer-form-label-title {
+  padding-bottom: 5px;
+}
+.footer-form-label-input {
+  height: 40px;
+  width: 300px;
+  border-radius: 2px;
+  border: 0;
+  padding-right: 5px;
+  outline: none;
+  padding: 10px;
+}
+.footer-form-label-input:hover {
+  outline: 1px solid rgb(103, 136, 208);
+}
+
+.header {
+  background-color: rgb(179, 176, 176);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-logo {
+  font-weight: 600;
+  margin-right: auto;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+}
+.header-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  max-width: 1600px;
+  max-height: 600px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/night.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.banner-title {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.information {
+  text-align: center;
+  margin-top: 100px;
+}
+.information-text {
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.projects {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.projects-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.projects-list {
+  margin: -15px;
+  margin-bottom: 20px;
+}
+.projects-list-element {
+  margin: 15px;
+}
+
+.backdrop {
+  display: flex;
+  background-color: rgba(103, 136, 208, 0.6);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(237, 233, 226);
+  margin: auto;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal-form {
+  margin: 8%;
+  margin-top: 100px;
+}
+.modal-form-label:hover {
+  color: rgb(103, 136, 208);
+}
+.modal-form-label-input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 500px;
+  border-radius: 2px;
+  border: 0;
+  outline: none;
+  padding: 10px;
+}
+.modal-form-label-input:hover {
+  outline: 1px solid rgb(103, 136, 208);
+}
+.modal-form-label-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.modal-form-button {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link {
+  font-weight: bold;
+  color: rgb(103, 136, 208);
+  border-bottom: 1px solid rgb(103, 136, 208);
+}/*# sourceMappingURL=main.css.map */

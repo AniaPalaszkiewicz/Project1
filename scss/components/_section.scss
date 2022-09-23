@@ -1,0 +1,51 @@
+.banner {
+    max-width:1600px;
+    max-height:600px;
+    text-align: center;
+    padding-top:200px;
+    padding-bottom:200px;
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../images/night.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:0 auto;
+
+    &-title {
+        margin-bottom:10px;
+        font-size:40px;
+    }
+}
+
+
+.information {
+    text-align: center;
+    margin-top: 100px;
+    
+    &-text {
+        width: 100%;
+        margin:auto;
+        padding-top:20px;
+        text-align:justify;
+    
+    }
+}
+
+
+.projects{
+    margin-top:100px;
+    margin-bottom:60px;
+
+    &-title {
+        text-align:center;
+        padding-bottom:20px;
+    }
+
+    &-list {
+        margin:-15px;
+        margin-bottom:20px;
+        
+        &-element{
+        margin:15px;
+        }
+    }
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="container flex">
+        <h2 class="header-logo">LOGO</h2>
+        <nav>
+            <ul class="header-nav">
+                <li><a class="header-nav-element element" href="#about">about</a></li>
+                <li><a class="header-nav-element element" href="#projects">projects</a></li>
+                <li><a class="header-nav-element element" href="#contact">contact</a></li>
+            </ul>
+        </nav>
+        <ul class="header-contact">
+            <li><a class="header-contact-element element" href="mailto:mail@mail.com">mail@mail.com</a></li>
+            <li><a class="header-contact-element element" href="tel:+487772244">+48 777 22 44</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <section class="banner">
+        <h1 class="banner-title">Never Better</h1>
+        <button class="banner-button button" type="button" data-modal-open >Learn More</button>
+    </section>
+    <section class="information">
+        <div class="container">
+            <h2 class="information-title" id="about">About Us</h2>
+            <p class="information-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="container">
+            <h2 class="projects-title" id="projects">Our Projects</h2>
+            <ul class="projects-list flex">
+                <li class="projects-list-element"><img src="./images/view.jpg" width="370px" height="294px"></li>
+                <li class="projects-list-element"><img src="./images/water.jpg" width="370px" height="294px"></li>
+                <li class="projects-list-element"><img src="./images/mountain.jpg" width="370px" height="294px"></li>
+            </ul>
+        </div>
+    </section>
+</main>
+<footer class="footer" id="contact">
+    <div class="container space">
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <ul>
+                <li><a class="footer-contact-element" href="mailto:mail@mail.com">mail@mail.com</a></li>
+                <li><a class="footer-contact-element" href="tel:+487772244">+48 777 22 44</a></li>
+            </ul>
+        </div>
+         <form class="footer-form">
+            <label class="footer-form-label" for="email">
+                <h3 class="footer-form-label-title">Sign up for newsletter!</h3>
+                <input class="footer-form-label-input" name="email" type="email" id="email" placeholder="email" required></input>
+                <button class="footer-form-label-button button" type="submit">send</button>
+            </label>
+        </form>     
+    </div>
+</footer>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+            x
+        </button>
+        <form class="modal-form">
+            <label class="modal-form-label">
+                <h3>Name</h3>
+                <input class="modal-form-label-input" name="name" type="text" placeholder="Place for Your name" required>
+            </label>
+            <label class="modal-form-label">
+                <h3>Surname</h3>
+                <input class="modal-form-label-input" name="surname" type="text" placeholder="Place for Your surname" required>
+            </label>
+            <label class="modal-form-label">
+                <h3>Email</h3>
+                <input class="modal-form-label-input" name="email" type="email" placeholder="Place for Your email" required>
+            </label><br>
+            <label class="flex">
+                <input class="modal-form-label-checkbox" type="checkbox" required>
+                <p>I accept the <a class="link" href="#">therms and conditions</a> and <a class="link" href="#">privacy policy</a>.</p>
+            </label>
+            <button class="modal-form-button button" type="submit">
+                SEND
+            </button>
+
+        </form>
+    </div>
+</div>
+
+<script src="./js/modal.js"></script>
+</body>
+</html>

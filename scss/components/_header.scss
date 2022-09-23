@@ -1,0 +1,23 @@
+.header {
+    background-color: $color3;
+    padding-top:20px;
+    padding-bottom:20px;   
+
+    &-logo {
+        font-weight:600;
+        margin-right:auto;
+    }
+
+    &-nav {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-right:80px;
+    }
+
+    &-contact {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    }

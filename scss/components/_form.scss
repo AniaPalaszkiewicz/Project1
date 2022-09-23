@@ -1,0 +1,53 @@
+.modal-form {
+    margin:8%;
+    margin-top:100px;
+
+    &-label {
+        &:hover {
+            color: $color5;
+        }
+        
+
+        &-input {
+            margin-top:5px;
+            margin-bottom:10px;
+            height: 50px;
+            width: 500px;
+            border-radius: 2px;
+            border: 0;
+            outline:none;
+            padding:10px;
+
+            &:hover {
+                outline:1px solid $color5;
+                
+            }
+
+            
+
+        }
+
+        &-checkbox {
+            width:20px;
+            height:20px;
+            cursor:pointer;
+            margin-right:10px;        
+        }
+
+       
+    }
+
+    &-button {
+        margin-top:20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+.link {
+    font-weight:bold;
+    color:$color5;
+    border-bottom:1px solid $color5;
+}

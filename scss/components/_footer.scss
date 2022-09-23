@@ -1,0 +1,50 @@
+.footer {
+    background-color: $color3;
+    padding-top:50px;
+    padding-bottom:50px;
+
+    &-contact{
+
+        &-element {
+
+            &:hover {
+                color:$color5;
+            }
+        }
+    }
+
+    &-form {
+
+        &-label {
+
+            &:hover {
+                
+                color: $color5;
+            }
+
+            &-title {
+                padding-bottom:5px;
+            }
+
+            &-input {
+                height:40px;
+                width: 300px;
+                border-radius:2px;
+                border:0;
+                padding-right: 5px;
+                outline:none;
+                padding:10px;
+                
+                &:hover {
+                    outline:1px solid $color5;
+                }
+
+              
+
+                
+            }
+
+        }
+    }
+    
+}
